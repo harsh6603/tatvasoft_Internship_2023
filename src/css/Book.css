@@ -1,0 +1,21 @@
+.secondColofSearch{
+    text-align: right;
+}
+
+.MuiTablePagination-selectLabel{
+    margin-bottom: 0;
+}
+
+.MuiTablePagination-displayedRows{
+    margin-bottom: 0;
+}
+
+@media(max-width:500px)
+{
+    .firstColOfSearch{
+        max-width: 0;
+    }
+    .secondColofSearch{
+        text-align:unset;
+    }   
+}

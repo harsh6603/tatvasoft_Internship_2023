@@ -1,0 +1,85 @@
+.alignment{
+    text-align: left;
+    padding: 3% 5%;
+}
+
+.label{    
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.titleText{
+    padding-top: 5%;
+    text-align: left;
+}
+
+.inputField{
+    padding: 2%;    
+    border: none;
+    outline: none;
+    width: 100%;    
+}
+
+.selectField{    
+    border: none;
+    outline: none;
+    width: 100%;    
+}
+
+.contentSpacingLeft{
+    padding-left: 2%;
+}
+
+.contentSpacingRight{
+    padding-right: 2%;
+}
+
+.btn{
+    margin: 5% 0;
+    text-transform: capitalize;
+    padding: 1% 6%;
+    font-size: 15px;
+}
+
+.setDiv{
+    width: 90%;
+    padding-bottom: 13%;
+}
+
+.setDiv1{
+    width: 90%;    
+}
+
+.linkBtn{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color: #ed6c02;
+    padding: 10px;    
+    border-radius:5px;    
+}
+
+.title::after{
+    content: "";
+    background-color: #ed6c02;
+    height: 2px;
+    width: 155px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(15px);
+}
+
+@media (max-width:500px) {
+    .setDiv{
+        width: 110%;
+        padding-bottom: 5%;
+    }
+    
+    .setDiv1{
+        width: 100%;    
+        padding-top: 8%;
+    }   
+}

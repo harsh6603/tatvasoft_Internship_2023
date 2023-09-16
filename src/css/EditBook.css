@@ -1,0 +1,19 @@
+.editBookField
+{
+    width:100%;
+    border: 1px solid gainsboro;
+    /* padding: 2%; */
+}
+
+.uploadBtn{
+    position: relative;
+    width: 19%;
+    top: -37px;
+}    
+
+@media(max-width:500px)
+{
+    .uploadBtn{
+        width:30%;
+    }
+}
